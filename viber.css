@@ -25,8 +25,9 @@ button {
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
+
 .text-top,
 .text-medium,
 .text-bottom {
@@ -44,13 +45,13 @@ h1 {
     list-style-position: inside;
     padding: 0;
     font-size: 2rem;
-
-    li {
-        font-size: 1.5rem;
-    }
+}
+li {
+    font-size: 1.5rem;
+}
 
 @media (max-width: 720px) {
-    *{
+    * {
         padding: 4px;
     }
     .information {
@@ -86,14 +87,13 @@ h1 {
         padding: 12px;
     }
 
-
     button {
         color: black;
         text-decoration: none;
         padding: 20px 40px;
-
         background: linear-gradient(to bottom, #f5e4e7, #f0daf5);
         border-radius: 30px;
         display: inline-block;
         font-size: 1.5rem;
+    }
 }
