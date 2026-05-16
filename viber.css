@@ -16,11 +16,12 @@
 button {
     color: black;
     text-decoration: none;
-    padding: 20px;
+    padding: 40px 80px;
     margin: 20px;
     background: linear-gradient(to bottom, #f5e4e7, #f0daf5);
     border-radius: 30px;
     display: inline-block;
+    font-size: 2rem;
 }
 
 h3 {
@@ -34,4 +35,13 @@ h3 {
 
 h1 {
     font-size: 3rem;
+}
+
+.viber-list {
+    max-width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+    list-style-position: inside;
+    padding: 0;
+    font-size: 1.5rem;
 }
