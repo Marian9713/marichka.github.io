@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    background: #f5cad2;
+}
+
+.information {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+button {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    background: linear-gradient(to bottom, #f5e4e7, #f0daf5);
+    border-radius: 30px;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 2rem;
+}
+.text-top,
+.text-medium,
+.text-bottom {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
